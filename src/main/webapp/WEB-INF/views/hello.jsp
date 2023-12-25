@@ -4,9 +4,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>HEllo</title>
+<title>Hello</title>
 </head>
 <body>
 <h1>Welcome to Spring MVC</h1>
+
+<%
+		String id = (String)request.getAttribute("id");
+		String name = (String)request.getAttribute("name");
+		Integer salary = (Integer)request.getAttribute("salary");
+		
+		out.println("ID : "+ id);
+		out.println("Name : "+ name);
+		out.println("Salary : "+ salary);
+%>
 </body>
 </html>

@@ -11,6 +11,9 @@ public class HelloController {
 	public ModelAndView hello() {
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("hello");
+		modelAndView.addObject("name", "Kabib N");
+		modelAndView.addObject("id", "UFC01");
+		modelAndView.addObject("Salary", 10000 );
 		return modelAndView;
 	}
 }
