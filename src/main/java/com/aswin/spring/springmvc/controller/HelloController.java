@@ -13,7 +13,7 @@ public class HelloController {
 		modelAndView.setViewName("hello");
 		modelAndView.addObject("name", "Kabib N");
 		modelAndView.addObject("id", "UFC01");
-		modelAndView.addObject("Salary", 10000 );
+		modelAndView.addObject("Salary", 10000);
 		return modelAndView;
 	}
 }
