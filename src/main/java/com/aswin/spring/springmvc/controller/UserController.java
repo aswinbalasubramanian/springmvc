@@ -24,7 +24,7 @@ public class UserController {
 	{
 		System.out.println(user);
 		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.setViewName("userReg"); 
+		modelAndView.setViewName("regResult"); 
 		return modelAndView;
 	}
 }
