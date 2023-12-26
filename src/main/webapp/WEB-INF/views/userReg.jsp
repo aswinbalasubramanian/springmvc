@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="regeisterUser" method="post">
+	<form action="registerUser" method="post">
 		<pre>
 				Id:<input type="text" name="id" />
 				Name:<input type="text" name="name" />
