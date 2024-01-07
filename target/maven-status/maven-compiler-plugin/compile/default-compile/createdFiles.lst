@@ -1,1 +1,9 @@
+com\aswin\spring\springmvc\dto\Employee.class
+com\aswin\spring\springmvc\dto\User.class
+com\aswin\spring\springmvc\controller\UserController.class
+com\aswin\spring\springmvc\controller\ObjectController.class
+com\aswin\spring\springmvc\controller\RequestParamsController.class
+com\aswin\spring\springmvc\controller\ListController.class
+com\aswin\spring\springmvc\controller\SpringConfig.class
 com\aswin\spring\springmvc\controller\HelloController.class
+com\aswin\spring\springmvc\controller\WebServletConfiguration.class
